@@ -8,6 +8,7 @@ ENV KUBECTL_VERSION=1.17.5
 ENV PATH /google-cloud-sdk/bin:$PATH
 RUN apk --no-cache add \
         curl \
+        jq \
         python \
         py-pip \
         bash \
