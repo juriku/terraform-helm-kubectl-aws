@@ -1,12 +1,12 @@
 # terraform-helm-kubectl-aws
 
-aws-cli helm terraform kubectl docker image
+aws-cli helm terraform kubectl alpine docker image
 
 ## contains:
 
 - AWS cli
 - Terraform
-- Helm
+- Helm (plugins: secrets, diff, s3), sops
 - Helmfile
-- Kubectl
+- kubectl
 - standard bash tools
